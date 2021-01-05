@@ -27,7 +27,10 @@ class Artist
   end
 
   def self.song_count
-   self.songs.length
+    Song.all each do {|song| song.artist == self}
+      song << @songs
+      @@song_count += 1
+    end
  end
 
   
