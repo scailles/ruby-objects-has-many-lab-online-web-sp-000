@@ -18,12 +18,12 @@ attr_accessor :title, :author
   end
   
   def author_name
-    if author.name == nil
-      return nil
-    else
+    if author
       author.name
-    end
+    else
+      nil
   end
+end
   
   
   
