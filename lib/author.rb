@@ -26,5 +26,8 @@ class Author
     @@post_count += 1
   end    
     
+  def post_count
+    @posts
+  end
   
 end
