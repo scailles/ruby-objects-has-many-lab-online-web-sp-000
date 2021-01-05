@@ -6,7 +6,7 @@ class Song
   @@all = []
   
   def initialize(name)
-    @name
+    @name = name
     if (@@all.include?(song))
       @@all << song
     else
