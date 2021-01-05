@@ -7,11 +7,7 @@ class Song
   
   def initialize(name)
     @name = name
-    if (@@all.include?(song))
-      @@all << song
-    else
-      @@all
-    end
+   @@all << self
   end
   
   
