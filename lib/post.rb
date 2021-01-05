@@ -17,7 +17,7 @@ attr_accessor :title, :author
     @@all
   end
   
-  def author
+  def author_name
     if author.name == nil
       return nil
     else
