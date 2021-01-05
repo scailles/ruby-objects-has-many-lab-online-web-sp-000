@@ -11,22 +11,22 @@ def initialize(name)
 end
 
 def songs
-  self.@songs
+  self.songs
 end
 
 def add_song(song)
-  self.@songs << song
+  self.songs << song
   song.artist = self
 end
 
 def add_song_by_name(song_name)
   song = Song.new(song_name)
   song.artist = self
-  self.@songs << song
+  self.songs << song
 end
 
 def self.song_count
-  self.@songs.length
+  self.songs.length
 end
 
 
