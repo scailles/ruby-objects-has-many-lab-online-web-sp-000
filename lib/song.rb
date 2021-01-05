@@ -3,4 +3,20 @@ class Song
   attr_accessor :name, :artist
   
   
-  def initialize(name, artist)
+  @@all = []
+  
+  def initialize(name)
+    @name
+    if (@@all.include?(song))
+      @@all << song
+    else
+      @@all
+    end
+  end
+  
+  
+  
+  
+end
+      
+    
