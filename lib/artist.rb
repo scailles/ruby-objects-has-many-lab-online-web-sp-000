@@ -30,6 +30,7 @@ class Artist
    count_array = []
    if self == Song.all.artist
      count_array << song
+     count_array.count
    else count_array.count
    end
 
