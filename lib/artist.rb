@@ -28,7 +28,7 @@ class Artist
 
   def self.song_count
    count_array = []
-   if self = Song.all.artist
+   if self == Song.all.artist
      count_array << song
    else count_array.count
    end
