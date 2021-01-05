@@ -13,8 +13,8 @@ def songs
   @songs
 end
 
-def add_song
-  @songs << @song
+def self.add_song
+  @songs << song
 end
 
 
