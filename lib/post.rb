@@ -10,3 +10,8 @@ class Post
     @title
     @@all << self
   end
+  
+  
+  
+  
+end
