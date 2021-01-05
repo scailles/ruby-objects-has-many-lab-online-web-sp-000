@@ -27,8 +27,10 @@ class Artist
   end
 
   def self.song_count
-   count = []
-   count << Song.all.select {|song| song.artist == self}
+   count_array = []
+   if self = Song.all.artist
+     count_array << song
+   else count_array.count
 
   end
 
