@@ -31,6 +31,7 @@ class Artist
    if self = Song.all.artist
      count_array << song
    else count_array.count
+   end
 
   end
 
